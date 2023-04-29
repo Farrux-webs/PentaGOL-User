@@ -1,11 +1,13 @@
 import React from 'react'
-import Footer from "../../components/Footer/Index"
 import Navbar from "../../components/Navbar/Index"
+import Table from "../../components/TableMatch/index"
+import Footer from "../../components/Footer/Index"
 
 const Index = () => {
   return (
     <div>
         <Navbar />
+        <Table/>
         <Footer/>
     </div>
   )
