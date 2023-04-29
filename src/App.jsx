@@ -1,13 +1,11 @@
-import Footer from "./components/Footer/Index"
-import Navbar from "./components/Navbar/Index"
+import Home from "./pages/home/Index";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Footer/>
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

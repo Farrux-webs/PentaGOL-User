@@ -14,7 +14,7 @@ const Index = () => {
           </NavLink>
 
           <button className="mode-btn">
-            <i className="bi bi-sun "></i>
+            <i className="bi bi-sun"></i>
           </button>
         </div>
       </div>
