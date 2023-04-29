@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar/Index"
 const App = () => {
   return (
     <div>
-      <Footer/>
       <Navbar />
+      <Footer/>
     </div>
   )
 }

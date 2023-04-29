@@ -23,5 +23,9 @@
     background-color: var(--All);
     .footer-box{
         justify-content: space-between;
+        .footer-menu{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
