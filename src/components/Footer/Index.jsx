@@ -47,6 +47,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <h3 className='footer-bottom'>© 2023  Footboll. All rights reserved</h3>
        </div>
     </div>
   )
