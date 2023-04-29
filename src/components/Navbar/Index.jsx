@@ -1,9 +1,18 @@
-
+import { React } from 'react';
+import NavLink from "react-router-dom"
+import Logo from "../../assets/images/Logo-Navbar.svg"
+import "./style.scss"
 
 const Index = () => {
   return (
-    <div>
-        
+    <div className="navbar">
+        <div className="container">
+            <div className="navbar-box flex">
+                <NavLink to="" width="136" height="53">
+                  <img src={Logo} alt="" />
+                </NavLink>
+            </div>
+        </div>
     </div>
   )
 }
