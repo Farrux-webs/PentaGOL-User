@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom"
 import Logo from "../../assets/images/Logo-Navbar.svg"
 import "./style.scss"
 // import "../../UI/colors/style.scss"
-
+// wscknwdckjecbkj
 const Index = () => {
   return (
     <div className="navbar">
