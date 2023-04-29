@@ -1,0 +1,28 @@
+.table{
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    background-color: var(--ligaBackgroundColor);
+.table-liga{
+    justify-content: space-around;
+    font-weight: 700;
+    padding: 0 10px;
+    height: 100%;
+    width: 180px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--ligaTextColor);
+}
+
+.active_table{
+    justify-content: space-around;
+    padding: 0 10px;
+    height: 100%;
+    width: 180px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--All);
+}
+}
