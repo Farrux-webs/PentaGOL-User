@@ -1,18 +1,18 @@
 :root {
-    $All : #469264;
-    $background: #E5E5E5;
-    $ligaTextColor: #777;
-    $ligaBackgroundColor: #DAE9E0;
-    $text: #fff;
-    $cardBackgroundColor: #F4F5F7;
-    $p_Color: #4A4B4C;
+    --All : #469264;
+    --background: #E5E5E5;
+    --ligaTextColor: #777;
+    --ligaBackgroundColor: #DAE9E0;
+    --text: #fff;
+    --cardBackgroundColor: #F4F5F7;
+    --p_Color: #4A4B4C;
 
     .active {
-        $background: #16171B;
-        $ligaTextColor: #fff;
-        $ligaBackgroundColor: #3F534C;
-        $text: #000;
-        $cardBackgroundColor: #2F3138;
-        $p_Color: #fff;
+        --background: #16171B;
+        --ligaTextColor: #fff;
+        --ligaBackgroundColor: #3F534C;
+        --text: #000;
+        --cardBackgroundColor: #2F3138;
+        --p_Color: #fff;
     }
 }
