@@ -1,0 +1,39 @@
+.main-news{
+    position: relative;
+    top: 100px;
+    .main-news-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: repeat(3, 300px);
+        grid-template-areas: 
+        "top top top"
+        "middle middle middle "
+        "bottom bottom bottom";
+
+        width: 70%;
+        gap: 20px;
+
+        .grid-item{
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 8px;
+            position: relative;
+
+            &:nth-child(1){
+                grid-area: top;
+                .grid-item-title{
+                    color: #fff;
+                    padding: 20px;
+                    font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 27px;
+                    
+                        color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+}

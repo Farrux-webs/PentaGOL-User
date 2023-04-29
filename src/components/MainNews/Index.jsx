@@ -1,17 +1,14 @@
 import React from "react";
+import News from "./News";
+import "./style.scss";
 
 const Index = () => {
   return (
-    <>
-      <div className="main-news-grid">
-        <div className="grid-item">
-          <h2 className="grid-item-title">
-            Faqatgina muvaffaqiyatli qura Rossiyani Jahon chempionatiga olib
-            boradi: bo'g'inlar oldidagi barcha maketlar
-          </h2>
-        </div>
+    <div className="main-news">
+      <div className="container">
+        <News />
       </div>
-    </>
+    </div>
   );
 };
 
