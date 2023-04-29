@@ -1,4 +1,5 @@
 import { React } from 'react';
+import {NavLink} from "react-router-dom"
 import "./style.scss"
 
 
@@ -11,18 +12,19 @@ const Footer = () => {
               <img src="../../../src/assets/images/Logo-Navbar.svg" alt="" />
             </div>
             <div className="footer-menu">
-              <a href="">main</a>
-              <a href="">match center</a>
-              <a href="">football</a>
-              <a href="">tennis</a>
-              <a href="">cybersport</a>
+              <NavLink to="" className="footer-link">main</NavLink>
+              <NavLink to="" className="footer-link">match center</NavLink>
+              <NavLink to="" className="footer-link">football</NavLink>
+              <NavLink to="" className="footer-link">tennis</NavLink>
+              <NavLink to="" className="footer-link">cybersport</NavLink>
             </div>
+            
             <div className="footer-menu">
-              <a href="">main</a>
-              <a href="">match center</a>
-              <a href="">football</a>
-              <a href="">tennis</a>
-              <a href="">cybersport</a>
+              <NavLink to="" className="footer-link">main</NavLink>
+              <NavLink to="" className="footer-link">match center</NavLink>
+              <NavLink to="" className="footer-link">football</NavLink>
+              <NavLink to="" className="footer-link">tennis</NavLink>
+              <NavLink to="" className="footer-link">cybersport</NavLink>
             </div>
             <div className="footer-social-media">
               <div className="footer-third">
