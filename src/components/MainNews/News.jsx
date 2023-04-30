@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss"
 import defaultImg from "../../assets/images/Cristiano.png"
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -8,7 +9,8 @@ const Index = () => {
   return (
     <>
       <div className="main-news-grid">
-        <div
+        <NavLink
+          to="news/:id"
           className="grid-item"
           style={{
             backgroundImage: `url(${defaultImg})`,
@@ -19,8 +21,9 @@ const Index = () => {
             boradi: bo'g'inlar oldidagi barcha maketlar
           </h2>
           <span className="grid-item-time">2 soat oldin</span>
-        </div>
-        <div
+        </NavLink>
+        <NavLink
+          to="news/:id"
           className="grid-item"
           style={{
             backgroundImage: `url(${defaultImg})`,
@@ -30,8 +33,9 @@ const Index = () => {
             Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi
           </h2>
           <span className="grid-item-time">2 soat oldin</span>
-        </div>
-        <div
+        </NavLink>
+        <NavLink
+          to="news/:id"
           className="grid-item"
           style={{
             backgroundImage: `url(${defaultImg})`,
@@ -41,8 +45,9 @@ const Index = () => {
             Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi
           </h2>
           <span className="grid-item-time">2 soat oldin</span>
-        </div>
-        <div
+        </NavLink>
+        <NavLink
+          to="news/:id"
           className="grid-item"
           style={{
             backgroundImage: `url(${defaultImg})`,
@@ -52,8 +57,9 @@ const Index = () => {
             Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi
           </h2>
           <span className="grid-item-time">2 soat oldin</span>
-        </div>
-        <div
+        </NavLink>
+        <NavLink
+          to="news/:id"
           className="grid-item"
           style={{
             backgroundImage: `url(${defaultImg})`,
@@ -63,8 +69,9 @@ const Index = () => {
             Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi
           </h2>
           <span className="grid-item-time">2 soat oldin</span>
-        </div>
-        <div
+        </NavLink>
+        <NavLink
+          to="news/:id"
           className="grid-item"
           style={{
             backgroundImage: `url(${defaultImg})`,
@@ -74,8 +81,9 @@ const Index = () => {
             Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi
           </h2>
           <span className="grid-item-time">2 soat oldin</span>
-        </div>
-        <div
+        </NavLink>
+        <NavLink
+          to="news/:id"
           className="grid-item"
           style={{
             backgroundImage: `url(${defaultImg})`,
@@ -85,7 +93,7 @@ const Index = () => {
             Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi
           </h2>
           <span className="grid-item-time">2 soat oldin</span>
-        </div>
+        </NavLink>
       </div>
     </>
   );

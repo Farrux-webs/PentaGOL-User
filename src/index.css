@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Montserrat:wght@400;500;600&family=Poppins&family=Roboto&family=Rubik:wght@400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -26,6 +26,8 @@
   --cardBackgroundColor: #F4F5F7;
   --table--select-bg: #fff;
   --p_Color: #4A4B4C;
+  --one--new--date: #333;
+  --news-border--color: #D2D2D2;
 }
 :root   .active {
     --background: #16171B;
@@ -36,4 +38,6 @@
     --p_Color: #959595;
     --view--all--heading: #4646468c;
     --table--select-bg: #16171B;
+    --one--new--date: #7a7a7a;
+    --news-border--color: #BCBCBC;
   }

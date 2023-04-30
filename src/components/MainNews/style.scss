@@ -24,6 +24,8 @@
                 background-size: cover;
                 border-radius: 8px;
                 padding: 130px 20px 20px 20px;
+                cursor: pointer;
+                text-decoration: none;
 
                 &:nth-child(1) {
                     grid-area: top;
@@ -32,7 +34,7 @@
 
                     .grid-item-title {
                         color: #fff;
-                        font-family: 'Manrope';
+                        font-family: 'Montserrat';
                         font-style: normal;
                         font-weight: 700;
                         font-size: 28px;
@@ -44,7 +46,7 @@
                     }
 
                     .grid-item-time {
-                        font-family: 'Manrope';
+                        font-family: 'Montserrat';
                         font-style: normal;
                         font-weight: 500;
                         font-size: 22px;
@@ -55,7 +57,7 @@
 
 
                 .grid-item-title {
-                    font-family: 'Manrope';
+                    font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 700;
                     font-size: 14px;
@@ -64,7 +66,7 @@
                 }
 
                 .grid-item-time {
-                    font-family: 'Manrope';
+                    font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 500;
                     font-size: 12px;

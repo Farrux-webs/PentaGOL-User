@@ -1,9 +1,9 @@
-import Home from "./pages/home/Index";
+import Router from "./Routes/Index"
 
 const App = () => {
   return (
     <>
-      <Home />
+      <Router />
     </>
   );
 };

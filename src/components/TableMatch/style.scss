@@ -13,6 +13,7 @@
     border-radius: 10px;
     text-decoration: none;
     color: var(--ligaTextColor);
+    font-family: "Montserrat";
 }
 
 .active_table{
@@ -24,6 +25,7 @@
     text-decoration: none;
     color: var(--text);
     background-color: var(--All);
+    font-family: "Montserrat";
 }
 }
 .table-wrapper{
@@ -52,4 +54,8 @@
            border-radius: 10px;
         }
 }
+}
+
+h2, h4, span{
+    font-family: "Montserrat";
 }

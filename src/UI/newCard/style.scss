@@ -10,6 +10,8 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    cursor: pointer;
+    text-decoration: none;
 
     .latest-news-card-img {
         border-radius: 8px;
@@ -22,7 +24,7 @@
 
     .card-body{
         .latest-news-card-heading{
-            font-family: 'Manrope';
+            font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 700;
                 font-size: 20px;
@@ -35,7 +37,7 @@
 
         }
         .latest-news-card-desc{
-            font-family: 'Manrope';
+            font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 500;
                 font-size: 14px;
