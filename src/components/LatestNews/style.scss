@@ -1,0 +1,14 @@
+
+
+.latest-news{
+    margin-bottom: 80px;
+.latest-news-cards-warpper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+
+    }
+}

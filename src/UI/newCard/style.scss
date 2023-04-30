@@ -1,0 +1,63 @@
+.latest-news-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 16px;
+    gap: 15px;
+    background: var(--cardBackgroundColor);
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    .latest-news-card-img {
+        border-radius: 8px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-body{
+        .latest-news-card-heading{
+            font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 27px;
+                color: var(--card--title);
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin-bottom: 10px;
+
+        }
+        .latest-news-card-desc{
+            font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 19px;
+                color: var(--p_Color);
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin-bottom: 16px;
+        }
+
+        .latest-news-card-date{
+            font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: right;
+                color: var(--ligaTextColor);
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+        }
+    }
+}

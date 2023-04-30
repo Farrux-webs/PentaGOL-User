@@ -1,0 +1,17 @@
+.news-heading-div{
+    width: 100%;
+    background-color: var(--All);
+    border-radius: 10px;
+    padding: 21px 30px 21px 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+    .news-heading{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+}

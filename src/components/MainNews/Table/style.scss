@@ -1,0 +1,40 @@
+.league-table-wrapper{
+    background-color: var(--cardBackgroundColor);
+    border-radius: 10px;
+    padding: 20px 5px 35px 5px;
+    margin-left: 20px;
+    width: 30%;
+
+    .league-table-heading{
+        font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            color: #000000;
+    }
+    .choose-league{
+        width: 100%;
+        background: var(--table--select-bg);
+        padding: 10px;
+            border-radius: 6px;
+            border: none;
+
+            &:focus{
+                outline: none;
+            }
+    }
+    .league-table{
+        width: 100%;
+
+        .league-table-th, .league-table-td{
+            text-align: center;
+            padding: 12px 6px;
+        }
+        .table-body-tr{
+            &:nth-child(odd){
+                background-color:  var(--table--select-bg)
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.view-all-heading-div {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 0;
+    gap: 10px;
+    width: 100%;
+    background: var(--view--all--heading);
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+
+    .view-all-heading {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--card--title);
+    }
+}

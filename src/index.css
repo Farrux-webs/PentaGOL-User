@@ -21,14 +21,19 @@
   --ligaTextColor: #777;
   --ligaBackgroundColor: #DAE9E0;
   --text: #fff;
+  --card--title: #000;
+  --view--all--heading: #EAEAEA;
   --cardBackgroundColor: #F4F5F7;
+  --table--select-bg: #fff;
   --p_Color: #4A4B4C;
 }
-.root   .active {
+:root   .active {
     --background: #16171B;
     --ligaTextColor: #fff;
     --ligaBackgroundColor: #3F534C;
-    --text: #000;
-    --cardBackgroundColor: #2F3138;
-    --p_Color: #fff;
+    --card--title: #fff;
+    --cardBackgroundColor: #151515;
+    --p_Color: #959595;
+    --view--all--heading: #4646468c;
+    --table--select-bg: #16171B;
   }
