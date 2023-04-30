@@ -2,6 +2,7 @@ import React from 'react'
 import Top from "./OneNewTop/Index"
 import MainLeft from "./OneNewsMain/Index"
 import MainNewsRight from "./Main-news/Index"
+import LatestNews from "../../components/LatestNews/Index"
 import "./style.scss"
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
           <MainNewsRight/>
         </div>
       </div>
+        <LatestNews/>
     </div>
   );
 }
